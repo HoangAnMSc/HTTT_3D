@@ -1,0 +1,21 @@
+.leaflet-control-layers-selector{
+    width: 50px;
+}
+.marker-position {
+    position: absolute;
+    bottom: 0;
+
+    z-index: 999;
+    padding: 10px;
+    font-weight: 700;
+    background-color: #fff;
+  }
+  .marker-dist {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+    padding: 10px;
+    font-weight: 700;
+    background-color: #fff;
+  }

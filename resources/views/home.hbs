@@ -1,0 +1,37 @@
+<header>
+    {{> header }}
+</header>
+<div id="flex-container">
+    <div class="Slide_Fix">
+ 
+               
+ {{>slidebar }}
+  
+    </div>
+
+    <div class="thuoctinh3">
+         
+        <!-- Make sure you put this AFTER Leaflet's CSS -->
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+            integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+            crossorigin=""></script>
+            <nav class="social">
+                <ul>
+                    <li class="Bản đồ"><a href="/">Bản đồ F0<i class="fa fa-street-view" aria-hidden="true" style="width:10%"></i></a></li>
+                    <li class="facebook"> <a href="/phongtoa"> Vùng dịch  <i class="fas fa-radiation-alt" aria-hidden="true"style="width:10%" ></i></a></li>
+                    <li class="google-plus"><a href="/">Tìm kiếm <i class="fa fa-arrows-alt" aria-hidden="true" style="width:10%"></i></a></li>
+                 
+                </ul>
+            </nav>
+            <div class="marker-position">click on the map, move the marker, click on the marker</div>
+           
+        <div id="map"></div>
+    </div>
+</div>
+
+<div id="Tinhtoan"></div>
+<script src="./js/leaflet.js"></script>
+
+<script src="./js/slidebar_checkbox.js"></script>
+
+ {{>slidebar }}
